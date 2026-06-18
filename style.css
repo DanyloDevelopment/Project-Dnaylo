@@ -1,47 +1,35 @@
-body {
-margin: 0;
-font-family: Arial, sans-serif;
-background: #0f1115;
+.menu {
+list-style: none;
+padding-left: 0;
+}
+
+.menu li {
+margin: 8px 0;
+}
+
+.menu a {
+text-decoration: none;
 color: #e6e6e6;
+padding: 8px 10px;
+display: block;
+border-radius: 6px;
+background: #222631;
+transition: 0.2s;
 }
 
-.container {
-max-width: 800px;
-margin: 0 auto;
-padding: 20px;
+.menu a:hover {
+background: #2f3545;
+transform: translateX(5px);
 }
 
-header {
+.header {
 text-align: center;
 margin-bottom: 30px;
 }
 
-h1 {
-margin: 0;
-font-size: 40px;
-}
-
-.subtitle {
-color: #888;
-}
-
-.card {
-background: #1a1d24;
-padding: 20px;
-margin-bottom: 15px;
-border-radius: 10px;
-border: 1px solid #2a2f3a;
-}
-
-h2 {
-margin-top: 0;
-color: #ffffff;
-}
-
-ul {
-padding-left: 20px;
-}
-
-li {
-margin-bottom: 6px;
+.footer {
+text-align: center;
+margin-top: 30px;
+color: #777;
+font-style: italic;
 }
